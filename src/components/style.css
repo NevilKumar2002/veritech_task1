@@ -1,0 +1,97 @@
+h2 {
+  background-color: rgb(242, 94, 218);
+  width: 30vw;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.header-container {
+  /* background-color: #f0f0f0; */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content p {
+  font-size: 1.2rem;
+}
+.content p span {
+  font-size: 1.4rem;
+  color: coral;
+  /* padding:20px; */
+}
+.line {
+  color: violet !important;
+}
+hr {
+  border-top: 4px dashed #ff69b4;
+  width: 100%;
+  
+  margin: 20px 0;
+}
+.image{
+    width:10vw;
+    height:10vw;
+}
+.founder{
+    color:#ff69b4;
+    margin-top: -10px;
+ 
+
+}
+h4{
+    background-color: rgb(242, 94, 218);
+    /* padding-top:2rem; */
+    margin-left: 18vw;
+  width: 25vw;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px; 
+}
+.leadership-team-container {
+    text-align: center; /* Center text */
+  }
+  
+  .leader-group {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    margin: 20px 0;
+  }
+  
+  .leader-div {
+    flex-basis: 200px; /* Adjust as needed */
+    text-align: center;
+  }
+  .leader-group1{
+    display: flex;
+    justify-content:space-evenly;
+    /* border:2px solid red; */
+ 
+  }
+  
+  .image {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 10px;
+  }
+  
+  .founder {
+    font-weight: bold;
+  }
+ 
+  
